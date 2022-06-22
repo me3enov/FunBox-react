@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Trebuchet MS';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: local('Trebuchet MS'), url('TrebuchetMS.woff') format('woff');
+}

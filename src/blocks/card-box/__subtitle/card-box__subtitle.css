@@ -1,0 +1,10 @@
+.card-box__subtitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-align: left;
+  padding: 0;
+  margin: -1px 0 0;
+  color: #000;
+}

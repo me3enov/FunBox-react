@@ -1,0 +1,16 @@
+.card-box__label {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-self: flex-end;
+  justify-self: flex-end;
+  overflow: hidden;
+  background-color: #1698D9;
+  height: 80px;
+  width: 80px;
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0 16px 16px 0;
+  padding: 0;
+  border-radius: 50%;
+}

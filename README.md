@@ -1,2 +1,2 @@
-# FunBox-react
-test work
+FunBox test work
+for run project use "make run" comand

@@ -1,0 +1,9 @@
+.card-box__border {
+  height: 480px;
+  width: 320px;
+  fill: none;
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+  padding: 0;
+}

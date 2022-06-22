@@ -1,0 +1,9 @@
+.card-box__promo-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 15px 0 0;
+  color: #666;
+}

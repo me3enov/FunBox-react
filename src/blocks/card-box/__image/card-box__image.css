@@ -1,0 +1,13 @@
+.card-box__image {
+  display: flex;
+  align-self: end;
+  width: 320px;
+  height: 280px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../../../images/cat-food/nymushka/cat.png);
+  grid-row: 1;
+  grid-column: 1;
+  margin: 0;
+  padding: 0;
+}

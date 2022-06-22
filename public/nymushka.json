@@ -1,0 +1,47 @@
+{
+  "items": {
+    "item1": {
+      "disabled" : false,
+      "subtitle": "c фуа-гра",
+      "promoItems": {
+        "promoCount": "20 порция",
+        "promoBonusCount": "1 мышь в подарок"
+      },
+      "labelNumber": "0,5",
+      "subtextSelected": "Печень утки разварная c артишоками.",
+      "image": "src/images/cat-food/nymushka/cat.png"
+    },
+    "item2": {
+      "disabled" : false,
+      "subtitle": "c рыбой",
+      "promoItems": {
+        "promoCount": "40 порция",
+        "promoBonusCount": "2 мышь в подарок"
+      },
+      "subtextSelected": "Головы щучьи c чесноком да свежайшая сёмгушка.",
+      "labelNumber": "2",
+      "image": "src/images/cat-food/nymushka/cat.png"
+    },
+    "item3": {
+      "disabled" : true,
+      "subtitle": "c курой",
+      "promoItems": {
+        "promoCount": "100 порция",
+        "promoBonusCount": "5 мышь в подарок",
+        "promoBonusHappiness": "заказчик доволен"
+      },
+      "subtextSelected": "Филе из цыплят c трюфелями в бульоне.",
+      "labelNumber": "5",
+      "image": "src/images/cat-food/nymushka/cat.png"
+    }
+  },
+  "texts": {
+    "text": "Сказочное заморское яство",
+    "textAfter": "Котэ не одобряет?",
+    "title": "Нямушка",
+    "labelText": "кг",
+    "subtext": "Чего сидишь? Порадуй котэ,",
+    "subtextBuy": "купи.",
+    "subtextDisable": "Печалька, товар закончился."
+  }
+}

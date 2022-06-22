@@ -1,0 +1,66 @@
+/* normalize css*/
+@import url(vendor/normalize.css);
+
+/* fonts */
+@import url(vendor/fonts/exo2/exo2.css);
+@import url(vendor/fonts/trebuchet-ms/trebuchet-ms.css);
+
+/* app */
+@import url(blocks/app/app.css);
+
+/* content */
+@import url(blocks/content/content.css);
+@import url(blocks/content/__title/content__title.css);
+
+/* cards */
+@import url(blocks/cards/cards.css);
+
+/* gallery */
+@import url(blocks/gallery/gallery.css);
+@import url(blocks/gallery/__message/gallery__message.css);
+
+/* card */
+@import url(blocks/card/card.css);
+@import url(blocks/card/__action-text/card__action-text.css);
+@import url(blocks/card/__text/card__text.css);
+@import url(blocks/card/__span/card__span.css);
+/* card modifier*/
+@import url(blocks/card/__text/_state/card__text_disabled.css);
+@import url(blocks/card/__span/_state/card__span_hovered.css);
+
+/* card-box */
+@import url(blocks/card-box/card-box.css);
+@import url(blocks/card-box/__info/card-box__info.css);
+@import url(blocks/card-box/__text/card-box__text.css);
+@import url(blocks/card-box/__title/card-box__title.css);
+@import url(blocks/card-box/__subtitle/card-box__subtitle.css);
+@import url(blocks/card-box/__promo-list/card-box__promo-list.css);
+@import url(blocks/card-box/__promo-box/card-box__promo-box.css);
+@import url(blocks/card-box/__promo-text/card-box__promo-text.css);
+@import url(blocks/card-box/__promo-span/card-box__promo-span.css);
+@import url(blocks/card-box/__image/card-box__image.css);
+@import url(blocks/card-box/__label/card-box__label.css);
+@import url(blocks/card-box/__label-number/card-box__label-number.css);
+@import url(blocks/card-box/__label-text/card-box__label-text.css);
+@import url(blocks/card-box/__border/card-box__border.css);
+@import url(blocks/card-box/__stroke/card-box__stroke.css);
+/* card-box modifier*/
+@import url(blocks/card-box/__image/_state/card-box__image_disabled.css);
+@import url(blocks/card-box/__label/_state/card-box__label_disabled.css);
+@import url(blocks/card-box/__label/_state/card-box__label_hovered.css);
+@import url(blocks/card-box/__label/_state/card-box__label_selected-hovered.css);
+@import url(blocks/card-box/__label/_state/card-box__label_selected.css);
+@import url(blocks/card-box/__promo-list/_state/card-box__promo-list_disabled.css);
+@import url(blocks/card-box/__stroke/_state/card-box__stroke_disabled.css);
+@import url(blocks/card-box/__stroke/_state/card-box__stroke_hovered.css);
+@import url(blocks/card-box/__stroke/_state/card-box__stroke_selected-hovered.css);
+@import url(blocks/card-box/__stroke/_state/card-box__stroke_selected.css);
+@import url(blocks/card-box/__subtitle/_state/card-box__subtitle_disabled.css);
+@import url(blocks/card-box/__text/_state/card-box__text_disabled.css);
+@import url(blocks/card-box/__text/_state/card-box__text_selected-hovered.css);
+@import url(blocks/card-box/__title/_state/card-box__title_disabled.css);
+
+/* root mix */
+@import url(blocks/app/__content/app__content.css);
+@import url(blocks/app/__title/app__title.css);
+@import url(blocks/app/__cards/app__cards.css);
