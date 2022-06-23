@@ -157,18 +157,20 @@ function Card({ card, texts }) {
         </div>
       </div>
       <div className="card__action-text">
-        <p className={`card__text ${cardBoxCardTextDisabledClassName}`}>{cardBuyText}</p>
-        <span
-          className={`card__span ${cardBoxCardSpanHoveredClassName}`}
-          onMouseEnter={handleSpanHover}
-          onMouseLeave={handleSpanUnhover}
-          onClick={handleSelectToggle}
-          onKeyPress={handleKeyToggle}
-          role="button"
-          tabIndex="0"
-        >
-          {cardBuySpanText}
-        </span>
+        <p className={`card__text ${cardBoxCardTextDisabledClassName}`}>
+          {cardBuyText}
+          <span
+            className={`card__span ${cardBoxCardSpanHoveredClassName}`}
+            onMouseEnter={handleSpanHover}
+            onMouseLeave={handleSpanUnhover}
+            onClick={handleSelectToggle}
+            onKeyPress={handleKeyToggle}
+            role="button"
+            tabIndex="0"
+          >
+            {cardBuySpanText}
+          </span>
+        </p>
       </div>
     </li>
   );
