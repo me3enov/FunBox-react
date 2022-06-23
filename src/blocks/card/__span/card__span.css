@@ -3,10 +3,13 @@
   line-height: 15px;
   font-weight: 700;
   text-align: left;
+  max-width: 320px;
   color: #1698D9;
   border-bottom: 1px dashed #1698D9;
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+  text-overflow: ellipsis;
   cursor: pointer;
   padding: 0;
   margin: 0;

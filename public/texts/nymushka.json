@@ -1,6 +1,7 @@
 {
   "items": {
     "item1": {
+      "id" : "id_0000001",
       "disabled" : false,
       "subtitle": "c фуа-гра",
       "promoItems": {
@@ -12,6 +13,7 @@
       "image": "images/cat.png"
     },
     "item2": {
+      "id" : "id_0000002",
       "disabled" : false,
       "subtitle": "c рыбой",
       "promoItems": {
@@ -23,6 +25,7 @@
       "image": "images/cat.png"
     },
     "item3": {
+      "id" : "id_0000003",
       "disabled" : true,
       "subtitle": "c курой",
       "promoItems": {

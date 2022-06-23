@@ -9,8 +9,10 @@ function CardList({ item }) {
 
   return (
     <li className="card-box__promo-box">
-      <p className="card-box__promo-span">{`${span === '' ? span : `${span}\u00A0`}`}</p>
-      <p className="card-box__promo-text">{text}</p>
+      <p className="card-box__promo-text">
+        <span className="card-box__promo-span">{`${span === '' ? span : `${span}\u00A0`}`}</span>
+        {text}
+      </p>
     </li>
   );
 }
