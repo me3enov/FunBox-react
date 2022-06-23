@@ -11,7 +11,7 @@
   color: #fff;
   max-width: 1120px;
 }
-@media screen and (max-width: 894px) {
+@media screen and (max-width: 1279px) {
   .content__title {
     max-width: 400px;
   }
