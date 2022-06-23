@@ -1,11 +1,10 @@
 {
   "items": {
     "item1": {
-      "id": "id0001",
       "disabled" : false,
       "subtitle": "c фуа-гра",
       "promoItems": {
-        "promoCount": "20 порция",
+        "promoCount": "10 порция",
         "promoBonusCount": "1 мышь в подарок"
       },
       "labelNumber": "0,5",
@@ -13,7 +12,6 @@
       "image": "images/cat.png"
     },
     "item2": {
-      "id": "id0002",
       "disabled" : false,
       "subtitle": "c рыбой",
       "promoItems": {
@@ -25,7 +23,6 @@
       "image": "images/cat.png"
     },
     "item3": {
-      "id": "id0003",
       "disabled" : true,
       "subtitle": "c курой",
       "promoItems": {

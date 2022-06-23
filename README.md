@@ -3,7 +3,7 @@
 
 ### Для запуска проекта достаточно его скачать и запустить командой "make run".
 Посмотреть и изменить информацию о карточке и ее доступность можно в Json файле по адресу:<br>
-src/data/cat-food/nymushka.json<br>
+public/texts/nymushka.json<br>
 "disabled" : false / "disabled" : true<br>
 По умолчанию 3 карточка товара недоступна!<br>
 
