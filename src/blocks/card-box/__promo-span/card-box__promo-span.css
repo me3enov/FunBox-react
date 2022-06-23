@@ -1,11 +1,3 @@
 .card-box__promo-span {
-  font-size: 14px;
   font-weight: 700;
-  line-height: 16px;
-  text-align: left;
-  max-width: 269px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  padding: 0;
-  margin: 0;
 }
