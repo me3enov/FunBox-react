@@ -15,40 +15,43 @@ function Card({ card, texts }) {
     !disabled && hovered && selected ? texts.textAfter : texts.text
   );
   const cardBuyTextDisabled = (
-    disabled && selected ? replaceText(texts.subtextDisable, card.subtitle) : `${texts.subtext}\u00A0`
+    disabled ? replaceText(texts.subtextDisable, card.subtitle) : `${texts.subtext}\u00A0`
   );
   const cardBuyText = (
     !disabled && selected ? card.subtextSelected : cardBuyTextDisabled
   );
   const cardBuySpanText = (
-    selected ? '' : texts.subtextBuy
+    !disabled && !selected ? texts.subtextBuy : ''
   );
   // TEXT END
   // STYLES START
   // Disabled classes
+  const cardBoxDisabledClassName = (
+    disabled ? 'card-box_disabled' : ''
+  );
   const cardBoxCardTextDisabledClassName = (
-    disabled && selected ? 'card__text_disabled' : ''
+    disabled ? 'card__text_disabled' : ''
   );
   const cardBoxImageDisabledClassName = (
-    disabled && selected ? 'card-box__image_disabled' : ''
+    disabled ? 'card-box__image_disabled' : ''
   );
   const cardBoxLabelDisabledClassName = (
-    disabled && selected ? 'card-box__label_disabled' : ''
+    disabled ? 'card-box__label_disabled' : ''
   );
   const cardBoxPromoListDisabledClassName = (
-    disabled && selected ? 'card-box__promo-list_disabled' : ''
+    disabled ? 'card-box__promo-list_disabled' : ''
   );
   const cardBoxStrokeDisabledClassName = (
-    disabled && selected ? 'card-box__stroke_disabled' : ''
+    disabled ? 'card-box__stroke_disabled' : ''
   );
   const cardBoxSubtitleDisabledClassName = (
-    disabled && selected ? 'card-box__subtitle_disabled' : ''
+    disabled ? 'card-box__subtitle_disabled' : ''
   );
   const cardBoxTextDisabledClassName = (
-    disabled && selected ? 'card-box__text_disabled' : ''
+    disabled ? 'card-box__text_disabled' : ''
   );
   const cardBoxTitleDisabledClassName = (
-    disabled && selected ? 'card-box__title_disabled' : ''
+    disabled ? 'card-box__title_disabled' : ''
   );
 
   // Selected classes
@@ -61,13 +64,13 @@ function Card({ card, texts }) {
 
   // Hovered classes
   const cardBoxStrokeHoveredClassName = (
-    hovered && !selected ? 'card-box__stroke_hovered' : ''
+    !disabled && hovered && !selected ? 'card-box__stroke_hovered' : ''
   );
   const cardBoxLabelHoveredClassName = (
-    hovered && !selected ? 'card-box__label_hovered' : ''
+    !disabled && hovered && !selected ? 'card-box__label_hovered' : ''
   );
   const cardBoxCardSpanHoveredClassName = (
-    hoveredSpan ? 'card__span_hovered' : ''
+    !disabled && hoveredSpan ? 'card__span_hovered' : ''
   );
 
   // Selected Hovered classes
@@ -115,7 +118,7 @@ function Card({ card, texts }) {
   return (
     <li className="card">
       <div
-        className="card-box"
+        className={`card-box ${cardBoxDisabledClassName}`}
         onMouseEnter={handleHover}
         onMouseLeave={handleUnhover}
         onClick={handleSelectToggle}

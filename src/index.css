@@ -45,6 +45,7 @@
 @import url(blocks/card-box/__border/card-box__border.css);
 @import url(blocks/card-box/__stroke/card-box__stroke.css);
 /* card-box modifier*/
+@import url(blocks/card-box/_state/card-box_disabled.css);
 @import url(blocks/card-box/__image/_state/card-box__image_disabled.css);
 @import url(blocks/card-box/__label/_state/card-box__label_disabled.css);
 @import url(blocks/card-box/__label/_state/card-box__label_hovered.css);
