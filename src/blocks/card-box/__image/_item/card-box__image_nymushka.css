@@ -1,0 +1,21 @@
+.card-box__image_nymushka {
+  background-image: url(../../../../images/cat-food/nymushka/cat_x1.png);
+}
+
+@media (min-resolution: 2dppx) {
+  .card-box__image_nymushka {
+    background-image: url(../../../../images/cat-food/nymushka/cat_x2.png);
+  }
+};
+
+@media (min-resolution: 3dppx) {
+  .card-box__image_nymushka {
+    background-image: url(../../../../images/cat-food/nymushka/cat_x3.png);
+  }
+}
+
+@media (min-resolution: 4dppx) {
+  .card-box__image_nymushka {
+    background-image: url(../../../../images/cat-food/nymushka/cat_x4.png);
+  }
+}
