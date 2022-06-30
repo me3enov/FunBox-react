@@ -1,9 +1,8 @@
 .card-box__info {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 269px;
+  height: 100%;
   grid-row: 1;
   grid-column: 1;
   padding-left: 51px;
-  width: 269px;
+  overflow: hidden;
 }

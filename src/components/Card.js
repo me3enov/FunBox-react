@@ -131,7 +131,7 @@ function Card({ card, texts }) {
           style={{ backgroundImage: `url(${card.image})` }}
         />
         <svg className="card-box__border">
-          <path className={`card-box__stroke${cardBoxStrokeDisabledClassName} ${cardBoxStrokeSelectedClassName} ${cardBoxStrokeHoveredClassName} ${cardBoxStrokeSelectedHoveredClassName}`} d="M2 468V40.505L40.505 2H308c5.523 0 10 4.477 10 10v456c0 5.523-4.477 10-10 10H12c-5.523 0-10-4.477-10-10Z" />
+          <path className={`card-box__stroke ${cardBoxStrokeDisabledClassName} ${cardBoxStrokeSelectedClassName} ${cardBoxStrokeHoveredClassName} ${cardBoxStrokeSelectedHoveredClassName}`} d="M2 468V40.505L40.505 2H308c5.523 0 10 4.477 10 10v456c0 5.523-4.477 10-10 10H12c-5.523 0-10-4.477-10-10Z" />
         </svg>
         <div className="card-box__info">
           <p
